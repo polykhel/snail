@@ -10,12 +10,13 @@ The presets include:
   2. Spiral
   3. Flag
   4. Collage
-  
-  Example: When user selects the Spiral preset...
+
+
+Example: When user selects the Spiral preset...
   
   It shows this output:
   
-          *******************************
+        *******************************
         Step 0 of 10
         Place initial value 'o' on starting point
         *******************************
@@ -93,22 +94,24 @@ The presets include:
         0 | o     o  o  o  o  o  o  o  o |
           O------------------------------O
 
-  
+
 If you want to create your own trail, here are the instructions:
-O---------------------------------------O
-| NOTE: A command consists of <D><S><C> |
-|                                       |
-| where,                                |
-|   <D> - direction ('U' up, 'D' down,  |
-|         'R' right, 'L' left)          |
-|   <S> - steps (integers '1-9')        |
-|   <C> - content (characters)          |
-| EXAMPLE: U5* (5 steps up, place *)    |
-|                                       |
-| type \"END\" to stop inputting commands |
-O---------------------------------------O
+
+    O---------------------------------------O
+    | NOTE: A command consists of <D><S><C> |
+    |                                       |
+    | where,                                |
+    |   <D> - direction ('U' up, 'D' down,  |
+    |         'R' right, 'L' left)          |
+    |   <S> - steps (integers '1-9')        |
+    |   <C> - content (characters)          |
+    | EXAMPLE: U5* (5 steps up, place *)    |
+    |                                       |
+    | type \"END\" to stop inputting commands |
+    O---------------------------------------O
 
 Example:
+
         Enter Start Point Row (1-10 only): 5
         Enter Start Point Column (1-10 only): 1
         Enter Start Point Content: H
