@@ -90,7 +90,7 @@ public class Sandbox {
     	System.out.println("  O------------------------------O");
     	
         for(int i = 0; i < 10; i++){
-            //System.out.print((i==9?0:i+1)+" |");
+            System.out.print((i==9?0:i+1)+" |");
             
             for(int j = 0; j < 10; j++){
                 if (board[i][j] == '\0') {
