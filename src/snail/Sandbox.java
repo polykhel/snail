@@ -76,7 +76,6 @@ public class Sandbox {
     public void firstRun(char startContent, int length) {
         if (firstRun == true) {                                                 // Checks if this is first run of the program
             board[row][column] = startContent;                // If true, place content on starting point
-            //System.out.println("\n");
             System.out.println("*******************************");
             System.out.println("Step 0 of " + length);
             System.out.println("Place initial value '" + startContent + "' on starting point");
